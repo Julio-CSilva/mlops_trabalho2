@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/julio/Downloads/trabalho%202%28mlops%29/Example_01/mlruns/0/934af1a4818a451cbea77bd95187023e/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 934af1a4818a451cbea77bd95187023e
+run_uuid: 934af1a4818a451cbea77bd95187023e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1657296875539
+status: 1
+tags: []
+user_id: julio

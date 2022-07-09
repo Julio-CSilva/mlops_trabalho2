@@ -1,0 +1,54 @@
+collected 3 items
+test_data.py::test_column_presence_and_type PASSED
+test_data.py::test_class_names PASSED
+test_data.py::test_column_ranges FAILED
+====================================================== FAILURES =======================================================
+_________________________________________________ test_column_ranges __________________________________________________
+data =              id                            listing_url  ...  calculated_host_listings_count_shared_rooms reviews_per_m...irbnb.com/rooms/53967814  ...                                            0               NaN
+[24549 rows x 74 columns]
+    def test_column_ranges(data):
+        ranges = {
+            "id": (10000, 54000000),
+            "host_listings_count": (0.0, 500.484705e+06),
+            "host_total_listings_count": (0.0, 670.0),
+            "accommodates": (0, 30),
+            "bedrooms": (0, 10.0),
+            "beds": (1.0, 10.0)
+        }
+        for col_name, (minimum, maximum) in ranges.items():
+>           assert data[col_name].dropna().between(minimum, maximum).all(), (
+                f"Column {col_name} failed the test. Should be between {minimum} and {maximum}, "
+                f"instead min={data[col_name].min()} and max={data[col_name].max()}"
+            )
+E           AssertionError: Column bedrooms failed the test. Should be between 0 and 10.0, instead min=1.0 and max=47.0
+E           assert False
+E            +  where False = <bound method Series.all of 0        True\n1        True\n2        True\n3        True\n4        True\n         ... \n24544    True\n24545    True\n24546    True\n24547    True\n24548    True\nName: bedrooms, Length: 23059, dtype: bool>()
+E            +    where <bound method Series.all of 0        True\n1        True\n2        True\n3        True\n4        True\n         ... \n24544    True\n24545    True\n24546    True\n24547    True\n24548    True\nName: bedrooms, Length: 23059, dtype: bool> = 0        True\n1        True\n2        True\n3        True\n4        True\n         ... \n24544    True\n24545    True\n24546    True\n24547    True\n24548    True\nName: bedrooms, Length: 23059, dtype: bool.all
+E            +      where 0        True\n1        True\n2        True\n3        True\n4        True\n         ... \n24544    True\n24545    True\n24546    True\n24547    True\n24548    True\nName: bedrooms, Length: 23059, dtype: bool = <bound method Series.between of 0        2.0\n1        1.0\n2        1.0\n3        1.0\n4        1.0\n        ... \n24544    4.0\n24545    1.0\n24546    3.0\n24547    1.0\n24548    1.0\nName: bedrooms, Length: 23059, dtype: float64>(0, 10.0)
+E            +        where <bound method Series.between of 0        2.0\n1        1.0\n2        1.0\n3        1.0\n4        1.0\n        ... \n24544    4.0\n24545    1.0\n24546    3.0\n24547    1.0\n24548    1.0\nName: bedrooms, Length: 23059, dtype: float64> = 0        2.0\n1        1.0\n2        1.0\n3        1.0\n4        1.0\n        ... \n24544    4.0\n24545    1.0\n24546    3.0\n24547    1.0\n24548    1.0\nName: bedrooms, Length: 23059, dtype: float64.between
+E            +          where 0        2.0\n1        1.0\n2        1.0\n3        1.0\n4        1.0\n        ... \n24544    4.0\n24545    1.0\n24546    3.0\n24547    1.0\n24548    1.0\nName: bedrooms, Length: 23059, dtype: float64 = <bound method Series.dropna of 0        2.0\n1        1.0\n2        1.0\n3        1.0\n4        1.0\n        ... \n24544    4.0\n24545    1.0\n24546    3.0\n24547    1.0\n24548    1.0\nName: bedrooms, Length: 24549, dtype: float64>()
+E            +            where <bound method Series.dropna of 0        2.0\n1        1.0\n2        1.0\n3        1.0\n4        1.0\n        ... \n24544    4.0\n24545    1.0\n24546    3.0\n24547    1.0\n24548    1.0\nName: bedrooms, Length: 24549, dtype: float64> = 0        2.0\n1        1.0\n2        1.0\n3        1.0\n4        1.0\n        ... \n24544    4.0\n24545    1.0\n24546    3.0\n24547    1.0\n24548    1.0\nName: bedrooms, Length: 24549, dtype: float64.dropna
+test_data.py:110: AssertionError
+================================================== warnings summary ===================================================
+..\..\..\anaconda3\envs\mlflow-d55a5cd65adfa33e03f0f3532080a4f8be3ebd7e\lib\site-packages\win32\lib\pywintypes.py:2
+  C:\Users\julio\anaconda3\envs\mlflow-d55a5cd65adfa33e03f0f3532080a4f8be3ebd7e\lib\site-packages\win32\lib\pywintypes.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+    import imp, sys, os
+..\..\..\anaconda3\envs\mlflow-d55a5cd65adfa33e03f0f3532080a4f8be3ebd7e\lib\site-packages\pandas\_testing.py:24
+  C:\Users\julio\anaconda3\envs\mlflow-d55a5cd65adfa33e03f0f3532080a4f8be3ebd7e\lib\site-packages\pandas\_testing.py:24: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+  Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+    import pandas._libs.testing as _testing
+test_data.py::test_column_presence_and_type
+test_data.py::test_column_presence_and_type
+test_data.py::test_column_presence_and_type
+test_data.py::test_column_presence_and_type
+test_data.py::test_column_presence_and_type
+test_data.py::test_column_presence_and_type
+test_data.py::test_column_ranges
+test_data.py::test_column_ranges
+  C:\Users\julio\anaconda3\envs\mlflow-d55a5cd65adfa33e03f0f3532080a4f8be3ebd7e\lib\site-packages\pandas\core\indexes\base.py:395: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+  Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+    elif issubclass(data.dtype.type, np.bool) or is_bool_dtype(data):
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=============================================== short test summary info ===============================================
+FAILED test_data.py::test_column_ranges - AssertionError: Column bedrooms failed the test. Should be between 0 and 10...
+====================================== 1 failed, 2 passed, 10 warnings in 13.19s ======================================

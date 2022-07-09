@@ -1,0 +1,27 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.10.5",
+    "heartbeatAt": "2022-07-08T22:25:57.412748",
+    "startedAt": "2022-07-08T22:25:55.331323",
+    "docker": null,
+    "gpu": "GeForce GTX 1650",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "artifact",
+        "put",
+        "--name",
+        "trabalho_2/raw_data.csv",
+        "--type",
+        "raw_data",
+        "--description",
+        "The raw data from 1994 US Census",
+        "raw_data.csv"
+    ],
+    "state": "running",
+    "program": "-m __main__",
+    "host": "DESKTOP-NAF89D0",
+    "username": "julio",
+    "executable": "C:\\Users\\julio\\anaconda3\\envs\\mlflow-30af6ae8c953b063250d14d90d0452465b142bbc\\python.exe"
+}

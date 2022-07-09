@@ -1,0 +1,23 @@
+collected 3 items
+test_data.py::test_column_presence_and_type PASSED
+test_data.py::test_class_names PASSED
+test_data.py::test_column_ranges PASSED
+================================================== warnings summary ===================================================
+..\..\..\anaconda3\envs\mlflow-d55a5cd65adfa33e03f0f3532080a4f8be3ebd7e\lib\site-packages\win32\lib\pywintypes.py:2
+  C:\Users\julio\anaconda3\envs\mlflow-d55a5cd65adfa33e03f0f3532080a4f8be3ebd7e\lib\site-packages\win32\lib\pywintypes.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+    import imp, sys, os
+..\..\..\anaconda3\envs\mlflow-d55a5cd65adfa33e03f0f3532080a4f8be3ebd7e\lib\site-packages\pandas\_testing.py:24
+  C:\Users\julio\anaconda3\envs\mlflow-d55a5cd65adfa33e03f0f3532080a4f8be3ebd7e\lib\site-packages\pandas\_testing.py:24: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+  Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+    import pandas._libs.testing as _testing
+test_data.py::test_column_presence_and_type
+test_data.py::test_column_presence_and_type
+test_data.py::test_column_presence_and_type
+test_data.py::test_column_presence_and_type
+test_data.py::test_column_presence_and_type
+test_data.py::test_column_presence_and_type
+  C:\Users\julio\anaconda3\envs\mlflow-d55a5cd65adfa33e03f0f3532080a4f8be3ebd7e\lib\site-packages\pandas\core\indexes\base.py:395: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+  Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+    elif issubclass(data.dtype.type, np.bool) or is_bool_dtype(data):
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=========================================== 3 passed, 8 warnings in 13.23s ============================================

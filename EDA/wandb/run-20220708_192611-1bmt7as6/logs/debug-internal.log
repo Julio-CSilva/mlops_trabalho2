@@ -1,0 +1,570 @@
+2022-07-08 19:26:12,956 INFO    MainThread:980 [internal.py:wandb_internal():90] W&B internal server running at pid: 980, started at: 2022-07-08 19:26:12.956378
+2022-07-08 19:26:12,958 INFO    WriterThread:980 [datastore.py:open_for_write():75] open: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\run-1bmt7as6.wandb
+2022-07-08 19:26:12,961 DEBUG   SenderThread:980 [sender.py:send():235] send: header
+2022-07-08 19:26:12,961 DEBUG   SenderThread:980 [sender.py:send():235] send: run
+2022-07-08 19:26:13,345 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: check_version
+2022-07-08 19:26:13,361 INFO    SenderThread:980 [dir_watcher.py:__init__():205] watching files in: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files
+2022-07-08 19:26:13,361 INFO    SenderThread:980 [sender.py:_start_run_threads():812] run started: 1bmt7as6 with start time 1657319171
+2022-07-08 19:26:13,361 DEBUG   SenderThread:980 [sender.py:send():235] send: summary
+2022-07-08 19:26:13,361 INFO    SenderThread:980 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 19:26:13,362 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: check_version
+2022-07-08 19:26:13,452 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: run_start
+2022-07-08 19:26:13,462 DEBUG   HandlerThread:980 [meta.py:__init__():35] meta init
+2022-07-08 19:26:13,462 DEBUG   HandlerThread:980 [meta.py:__init__():49] meta init done
+2022-07-08 19:26:13,462 DEBUG   HandlerThread:980 [meta.py:probe():209] probe
+2022-07-08 19:26:13,475 DEBUG   HandlerThread:980 [git.py:repo():29] git repository is invalid
+2022-07-08 19:26:13,475 DEBUG   HandlerThread:980 [meta.py:_save_code():87] save code
+2022-07-08 19:26:13,475 WARNING HandlerThread:980 [meta.py:_save_code():89] unable to save code -- program entry not found
+2022-07-08 19:26:13,475 DEBUG   HandlerThread:980 [meta.py:_save_pip():53] save pip
+2022-07-08 19:26:13,475 DEBUG   HandlerThread:980 [meta.py:_save_pip():67] save pip done
+2022-07-08 19:26:13,476 DEBUG   HandlerThread:980 [meta.py:_save_conda():74] save conda
+2022-07-08 19:26:14,370 INFO    Thread-11 :980 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\requirements.txt
+2022-07-08 19:26:14,370 INFO    Thread-11 :980 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\wandb-summary.json
+2022-07-08 19:26:14,370 INFO    Thread-11 :980 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\conda-environment.yaml
+2022-07-08 19:26:16,351 DEBUG   HandlerThread:980 [meta.py:_save_conda():84] save conda done
+2022-07-08 19:26:16,352 DEBUG   HandlerThread:980 [meta.py:probe():247] probe done
+2022-07-08 19:26:16,357 DEBUG   SenderThread:980 [sender.py:send():235] send: files
+2022-07-08 19:26:16,357 INFO    SenderThread:980 [sender.py:_save_file():949] saving file wandb-metadata.json with policy now
+2022-07-08 19:26:16,372 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:26:16,373 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:26:16,377 INFO    Thread-11 :980 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\conda-environment.yaml
+2022-07-08 19:26:16,377 INFO    Thread-11 :980 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\output.log
+2022-07-08 19:26:16,377 INFO    Thread-11 :980 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\wandb-metadata.json
+2022-07-08 19:26:16,693 DEBUG   SenderThread:980 [sender.py:send():235] send: telemetry
+2022-07-08 19:26:16,935 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: log_artifact
+2022-07-08 19:26:16,935 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: log_artifact
+2022-07-08 19:26:16,941 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: pause
+2022-07-08 19:26:16,941 INFO    HandlerThread:980 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-08 19:26:17,331 INFO    Thread-15 :980 [upload_job.py:push():132] Uploaded file C:\Users\julio\AppData\Local\Temp\tmpp0mxn411wandb\1hwtcelc-wandb-metadata.json
+2022-07-08 19:26:19,417 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: resume
+2022-07-08 19:26:19,417 INFO    HandlerThread:980 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-08 19:26:22,949 INFO    Thread-17 :980 [upload_job.py:push():90] Uploaded file C:\Users\julio\.cache\wandb\artifacts\obj\md5\30\eae1cacb3a2ac33224790df6311dfd
+2022-07-08 19:26:23,753 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: log_artifact
+2022-07-08 19:26:23,759 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: pause
+2022-07-08 19:26:23,759 INFO    HandlerThread:980 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-08 19:26:24,336 INFO    SenderThread:980 [sender.py:send_request_log_artifact():1006] logged artifact source-1bmt7as6 - {'id': 'QXJ0aWZhY3Q6MTU0OTI1MTMy', 'digest': '55fba9e1b0cd53de7161d6ae0f5de676', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzOTAyOTM1', 'latestArtifact': None}, 'version': 'latest'}
+2022-07-08 19:26:24,336 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:26:24,336 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: log_artifact
+2022-07-08 19:26:25,046 INFO    SenderThread:980 [sender.py:send_request_log_artifact():1006] logged artifact source-1bmt7as6 - {'id': 'QXJ0aWZhY3Q6MTU0OTI1MTMy', 'digest': '55fba9e1b0cd53de7161d6ae0f5de676', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-1bmt7as6', 'alias': 'latest'}, {'artifactCollectionName': 'source-1bmt7as6', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzOTAyOTM1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTU0OTI1MTMy', 'versionIndex': 0}}, 'version': 'v0'}
+2022-07-08 19:26:25,046 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:26:31,701 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:26:31,702 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:26:43,422 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: resume
+2022-07-08 19:26:43,422 INFO    HandlerThread:980 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-08 19:26:44,037 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: log_artifact
+2022-07-08 19:26:44,038 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: log_artifact
+2022-07-08 19:26:44,045 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: pause
+2022-07-08 19:26:44,046 INFO    HandlerThread:980 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-08 19:26:44,630 INFO    Thread-11 :980 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\config.yaml
+2022-07-08 19:26:44,739 INFO    SenderThread:980 [sender.py:send_request_log_artifact():1006] logged artifact source-1bmt7as6 - {'id': 'QXJ0aWZhY3Q6MTU0OTI1MTMy', 'digest': '55fba9e1b0cd53de7161d6ae0f5de676', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-1bmt7as6', 'alias': 'latest'}, {'artifactCollectionName': 'source-1bmt7as6', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzOTAyOTM1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTU0OTI1MTMy', 'versionIndex': 0}}, 'version': 'v0'}
+2022-07-08 19:26:44,740 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:26:45,668 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: resume
+2022-07-08 19:26:45,668 INFO    HandlerThread:980 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-08 19:26:46,326 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: log_artifact
+2022-07-08 19:26:46,327 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: log_artifact
+2022-07-08 19:26:46,334 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: pause
+2022-07-08 19:26:46,334 INFO    HandlerThread:980 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-08 19:26:46,640 INFO    Thread-11 :980 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\output.log
+2022-07-08 19:26:46,961 INFO    SenderThread:980 [sender.py:send_request_log_artifact():1006] logged artifact source-1bmt7as6 - {'id': 'QXJ0aWZhY3Q6MTU0OTI1MTMy', 'digest': '55fba9e1b0cd53de7161d6ae0f5de676', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-1bmt7as6', 'alias': 'latest'}, {'artifactCollectionName': 'source-1bmt7as6', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzOTAyOTM1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTU0OTI1MTMy', 'versionIndex': 0}}, 'version': 'v0'}
+2022-07-08 19:26:46,962 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:26:47,059 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:26:47,060 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:26:47,238 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: resume
+2022-07-08 19:26:47,238 INFO    HandlerThread:980 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-08 19:26:47,933 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: log_artifact
+2022-07-08 19:26:47,933 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: log_artifact
+2022-07-08 19:26:47,936 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: pause
+2022-07-08 19:26:47,936 INFO    HandlerThread:980 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-08 19:26:48,622 INFO    SenderThread:980 [sender.py:send_request_log_artifact():1006] logged artifact source-1bmt7as6 - {'id': 'QXJ0aWZhY3Q6MTU0OTI1MTMy', 'digest': '55fba9e1b0cd53de7161d6ae0f5de676', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-1bmt7as6', 'alias': 'latest'}, {'artifactCollectionName': 'source-1bmt7as6', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzOTAyOTM1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTU0OTI1MTMy', 'versionIndex': 0}}, 'version': 'v0'}
+2022-07-08 19:26:48,622 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:26:50,100 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: resume
+2022-07-08 19:26:50,100 INFO    HandlerThread:980 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-08 19:27:02,574 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:27:02,574 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:27:18,169 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:27:18,170 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:27:21,504 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:27:33,554 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:27:33,554 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:27:48,890 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:27:48,890 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:27:55,115 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:28:04,401 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:28:04,401 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:28:19,716 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:28:19,716 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:28:28,618 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:28:35,242 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:28:35,242 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:28:50,586 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:28:50,587 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:29:02,278 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:29:06,062 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:29:06,062 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:29:21,398 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:29:21,398 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:29:35,989 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:29:36,721 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:29:36,722 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:29:52,044 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:29:52,045 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:30:07,412 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:30:07,412 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:30:09,585 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:30:22,725 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:30:22,725 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:30:38,057 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:30:38,057 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:30:43,071 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:30:53,388 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:30:53,388 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:31:08,719 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:31:08,720 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:31:16,678 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:31:24,071 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:31:24,071 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:31:39,477 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:31:39,477 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:31:50,226 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:31:53,937 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: log_artifact
+2022-07-08 19:31:53,937 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: log_artifact
+2022-07-08 19:31:53,941 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: pause
+2022-07-08 19:31:53,941 INFO    HandlerThread:980 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-08 19:31:54,825 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:31:56,293 INFO    Thread-24 :980 [upload_job.py:push():90] Uploaded file C:\Users\julio\.cache\wandb\artifacts\obj\md5\b1\fc49412f23682cd0a5f06634302945
+2022-07-08 19:31:57,819 INFO    SenderThread:980 [sender.py:send_request_log_artifact():1006] logged artifact source-1bmt7as6 - {'id': 'QXJ0aWZhY3Q6MTU0OTI4MDg1', 'digest': '84a44442328530d37027fc30a322f9d5', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzOTAyOTM1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTU0OTI1MTMy', 'versionIndex': 0}}, 'version': 'latest'}
+2022-07-08 19:31:57,819 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:31:57,820 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:32:13,166 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:32:13,166 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:32:28,505 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:32:28,505 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:32:43,860 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:32:43,860 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:32:59,188 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:32:59,188 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:33:14,506 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:33:14,507 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:33:29,880 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:33:29,880 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:33:45,204 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:33:45,204 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:34:00,551 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:34:00,551 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:34:15,855 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:34:15,855 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:34:31,172 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:34:31,172 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:34:40,851 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: resume
+2022-07-08 19:34:40,851 INFO    HandlerThread:980 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-08 19:34:42,232 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: log_artifact
+2022-07-08 19:34:42,232 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: log_artifact
+2022-07-08 19:34:42,238 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: pause
+2022-07-08 19:34:42,239 INFO    HandlerThread:980 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-08 19:34:42,327 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: resume
+2022-07-08 19:34:42,327 INFO    HandlerThread:980 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-08 19:34:43,146 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: log_artifact
+2022-07-08 19:34:43,154 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: pause
+2022-07-08 19:34:43,154 INFO    HandlerThread:980 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-08 19:34:43,720 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: resume
+2022-07-08 19:34:43,720 INFO    HandlerThread:980 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-08 19:34:44,753 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: log_artifact
+2022-07-08 19:34:44,755 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: pause
+2022-07-08 19:34:44,755 INFO    HandlerThread:980 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-08 19:34:45,356 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: resume
+2022-07-08 19:34:45,356 INFO    HandlerThread:980 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-08 19:34:46,503 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:34:47,069 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: log_artifact
+2022-07-08 19:34:47,071 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: pause
+2022-07-08 19:34:47,071 INFO    HandlerThread:980 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-08 19:34:47,300 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: resume
+2022-07-08 19:34:47,300 INFO    HandlerThread:980 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-08 19:34:48,396 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: log_artifact
+2022-07-08 19:34:48,398 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: pause
+2022-07-08 19:34:48,398 INFO    HandlerThread:980 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-08 19:34:48,537 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: resume
+2022-07-08 19:34:48,538 INFO    HandlerThread:980 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-08 19:34:49,624 INFO    Thread-28 :980 [upload_job.py:push():90] Uploaded file C:\Users\julio\.cache\wandb\artifacts\obj\md5\a4\0bd122496d0c77d1cbd3be9a344431
+2022-07-08 19:34:49,659 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-08 19:34:50,373 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: log_artifact
+2022-07-08 19:34:50,388 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: pause
+2022-07-08 19:34:50,388 INFO    HandlerThread:980 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-08 19:34:50,521 INFO    Thread-11 :980 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\media\images\Tipos de salas em que se é superhost ou não e também existe verificação do host_0_9c0e1e9e9787f2560b75.png
+2022-07-08 19:34:50,523 INFO    Thread-11 :980 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\media
+2022-07-08 19:34:50,523 INFO    Thread-11 :980 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\media\images
+2022-07-08 19:34:51,148 INFO    SenderThread:980 [sender.py:send_request_log_artifact():1006] logged artifact source-1bmt7as6 - {'id': 'QXJ0aWZhY3Q6MTU0OTI5NjAw', 'digest': '5816cc7b41629d629d972fd3c7443629', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzOTAyOTM1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTU0OTI4MDg1', 'versionIndex': 1}}, 'version': 'latest'}
+2022-07-08 19:34:51,149 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:34:51,150 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: log_artifact
+2022-07-08 19:34:51,501 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: resume
+2022-07-08 19:34:51,501 INFO    HandlerThread:980 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-08 19:34:51,821 INFO    SenderThread:980 [sender.py:send_request_log_artifact():1006] logged artifact source-1bmt7as6 - {'id': 'QXJ0aWZhY3Q6MTU0OTI5NjAw', 'digest': '5816cc7b41629d629d972fd3c7443629', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-1bmt7as6', 'alias': 'latest'}, {'artifactCollectionName': 'source-1bmt7as6', 'alias': 'v2'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzOTAyOTM1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTU0OTI5NjAw', 'versionIndex': 2}}, 'version': 'v2'}
+2022-07-08 19:34:51,821 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:34:51,822 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: log_artifact
+2022-07-08 19:34:52,109 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: log_artifact
+2022-07-08 19:34:52,124 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: pause
+2022-07-08 19:34:52,124 INFO    HandlerThread:980 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-08 19:34:52,538 INFO    SenderThread:980 [sender.py:send_request_log_artifact():1006] logged artifact source-1bmt7as6 - {'id': 'QXJ0aWZhY3Q6MTU0OTI5NjAw', 'digest': '5816cc7b41629d629d972fd3c7443629', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-1bmt7as6', 'alias': 'latest'}, {'artifactCollectionName': 'source-1bmt7as6', 'alias': 'v2'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzOTAyOTM1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTU0OTI5NjAw', 'versionIndex': 2}}, 'version': 'v2'}
+2022-07-08 19:34:52,538 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:34:52,539 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:34:52,865 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: log_artifact
+2022-07-08 19:34:53,545 INFO    SenderThread:980 [sender.py:send_request_log_artifact():1006] logged artifact source-1bmt7as6 - {'id': 'QXJ0aWZhY3Q6MTU0OTI5NjAw', 'digest': '5816cc7b41629d629d972fd3c7443629', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-1bmt7as6', 'alias': 'latest'}, {'artifactCollectionName': 'source-1bmt7as6', 'alias': 'v2'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzOTAyOTM1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTU0OTI5NjAw', 'versionIndex': 2}}, 'version': 'v2'}
+2022-07-08 19:34:53,545 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:34:53,545 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: log_artifact
+2022-07-08 19:34:54,230 INFO    SenderThread:980 [sender.py:send_request_log_artifact():1006] logged artifact source-1bmt7as6 - {'id': 'QXJ0aWZhY3Q6MTU0OTI5NjAw', 'digest': '5816cc7b41629d629d972fd3c7443629', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-1bmt7as6', 'alias': 'latest'}, {'artifactCollectionName': 'source-1bmt7as6', 'alias': 'v2'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzOTAyOTM1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTU0OTI5NjAw', 'versionIndex': 2}}, 'version': 'v2'}
+2022-07-08 19:34:54,230 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:34:54,231 DEBUG   SenderThread:980 [sender.py:send():235] send: files
+2022-07-08 19:34:54,243 INFO    SenderThread:980 [sender.py:_save_file():949] saving file media\images\Tipos de salas em que se é superhost ou não e também existe verificação do host_0_9c0e1e9e9787f2560b75.png with policy now
+2022-07-08 19:34:54,258 DEBUG   SenderThread:980 [sender.py:send():235] send: history
+2022-07-08 19:34:54,259 DEBUG   SenderThread:980 [sender.py:send():235] send: summary
+2022-07-08 19:34:54,262 INFO    SenderThread:980 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 19:34:54,263 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: log_artifact
+2022-07-08 19:34:54,564 INFO    Thread-11 :980 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\wandb-summary.json
+2022-07-08 19:34:54,914 INFO    SenderThread:980 [sender.py:send_request_log_artifact():1006] logged artifact source-1bmt7as6 - {'id': 'QXJ0aWZhY3Q6MTU0OTI5NjAw', 'digest': '5816cc7b41629d629d972fd3c7443629', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-1bmt7as6', 'alias': 'latest'}, {'artifactCollectionName': 'source-1bmt7as6', 'alias': 'v2'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzOTAyOTM1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTU0OTI5NjAw', 'versionIndex': 2}}, 'version': 'v2'}
+2022-07-08 19:34:54,915 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:34:54,915 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: log_artifact
+2022-07-08 19:34:55,172 INFO    Thread-34 :980 [upload_job.py:push():132] Uploaded file C:\Users\julio\AppData\Local\Temp\tmpp0mxn411wandb\19etm6rw-media/images/Tipos de salas em que se é superhost ou não e também existe verificação do host_0_9c0e1e9e9787f2560b75.png
+2022-07-08 19:34:55,594 INFO    SenderThread:980 [sender.py:send_request_log_artifact():1006] logged artifact source-1bmt7as6 - {'id': 'QXJ0aWZhY3Q6MTU0OTI5NjAw', 'digest': '5816cc7b41629d629d972fd3c7443629', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-1bmt7as6', 'alias': 'latest'}, {'artifactCollectionName': 'source-1bmt7as6', 'alias': 'v2'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzOTAyOTM1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTU0OTI5NjAw', 'versionIndex': 2}}, 'version': 'v2'}
+2022-07-08 19:34:55,595 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:35:03,594 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: resume
+2022-07-08 19:35:03,594 INFO    HandlerThread:980 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-08 19:35:05,438 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: log_artifact
+2022-07-08 19:35:05,446 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: log_artifact
+2022-07-08 19:35:05,448 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: pause
+2022-07-08 19:35:05,448 INFO    HandlerThread:980 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-08 19:35:06,112 INFO    SenderThread:980 [sender.py:send_request_log_artifact():1006] logged artifact source-1bmt7as6 - {'id': 'QXJ0aWZhY3Q6MTU0OTI5NjAw', 'digest': '5816cc7b41629d629d972fd3c7443629', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-1bmt7as6', 'alias': 'latest'}, {'artifactCollectionName': 'source-1bmt7as6', 'alias': 'v2'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzOTAyOTM1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTU0OTI5NjAw', 'versionIndex': 2}}, 'version': 'v2'}
+2022-07-08 19:35:06,113 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:35:06,556 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:35:06,556 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:35:21,865 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:35:21,866 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:35:37,202 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:35:37,202 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:35:52,540 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:35:52,541 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:36:07,855 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:36:07,855 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:36:23,258 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:36:23,259 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:36:38,589 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:36:38,589 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:36:48,765 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: resume
+2022-07-08 19:36:48,766 INFO    HandlerThread:980 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-08 19:36:50,025 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: log_artifact
+2022-07-08 19:36:50,025 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: log_artifact
+2022-07-08 19:36:50,030 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: pause
+2022-07-08 19:36:50,030 INFO    HandlerThread:980 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-08 19:36:53,922 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:36:56,111 INFO    Thread-38 :980 [upload_job.py:push():90] Uploaded file C:\Users\julio\.cache\wandb\artifacts\obj\md5\b1\116c0f5c5c9d036441dcbe8683602e
+2022-07-08 19:36:57,617 INFO    SenderThread:980 [sender.py:send_request_log_artifact():1006] logged artifact source-1bmt7as6 - {'id': 'QXJ0aWZhY3Q6MTU0OTMwNzQz', 'digest': 'c29dddb50a91c91fac6e73d6cc19c4ee', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzOTAyOTM1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTU0OTI5NjAw', 'versionIndex': 2}}, 'version': 'latest'}
+2022-07-08 19:36:57,618 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:36:57,618 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:37:12,977 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:37:12,978 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:37:28,331 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:37:28,332 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:37:39,888 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: resume
+2022-07-08 19:37:39,889 INFO    HandlerThread:980 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-08 19:37:43,689 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:37:43,689 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:37:44,209 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: log_artifact
+2022-07-08 19:37:44,210 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: log_artifact
+2022-07-08 19:37:44,212 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: pause
+2022-07-08 19:37:44,213 INFO    HandlerThread:980 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-08 19:37:50,422 INFO    Thread-41 :980 [upload_job.py:push():90] Uploaded file C:\Users\julio\.cache\wandb\artifacts\obj\md5\77\3479bbe146c31b3719961e88a61bd5
+2022-07-08 19:37:51,990 INFO    SenderThread:980 [sender.py:send_request_log_artifact():1006] logged artifact source-1bmt7as6 - {'id': 'QXJ0aWZhY3Q6MTU0OTMxMjEw', 'digest': '88253d53963f4bbc7b3dbeed5d217541', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzOTAyOTM1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTU0OTMwNzQz', 'versionIndex': 3}}, 'version': 'latest'}
+2022-07-08 19:37:51,990 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:37:59,013 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:37:59,014 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:38:14,324 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:38:14,325 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:38:29,666 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:38:29,673 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:38:45,032 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:38:45,033 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:39:00,383 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:39:00,383 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:39:15,702 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:39:15,703 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:39:24,545 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: resume
+2022-07-08 19:39:24,545 INFO    HandlerThread:980 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-08 19:39:25,352 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: log_artifact
+2022-07-08 19:39:25,353 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: log_artifact
+2022-07-08 19:39:25,366 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: pause
+2022-07-08 19:39:25,367 INFO    HandlerThread:980 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-08 19:39:26,019 INFO    SenderThread:980 [sender.py:send_request_log_artifact():1006] logged artifact source-1bmt7as6 - {'id': 'QXJ0aWZhY3Q6MTU0OTMxMjEw', 'digest': '88253d53963f4bbc7b3dbeed5d217541', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-1bmt7as6', 'alias': 'latest'}, {'artifactCollectionName': 'source-1bmt7as6', 'alias': 'v4'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzOTAyOTM1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTU0OTMxMjEw', 'versionIndex': 4}}, 'version': 'v4'}
+2022-07-08 19:39:26,019 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:39:29,126 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: resume
+2022-07-08 19:39:29,126 INFO    HandlerThread:980 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-08 19:39:29,748 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: log_artifact
+2022-07-08 19:39:29,748 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: log_artifact
+2022-07-08 19:39:29,755 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: pause
+2022-07-08 19:39:29,755 INFO    HandlerThread:980 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-08 19:39:30,429 INFO    SenderThread:980 [sender.py:send_request_log_artifact():1006] logged artifact source-1bmt7as6 - {'id': 'QXJ0aWZhY3Q6MTU0OTMxMjEw', 'digest': '88253d53963f4bbc7b3dbeed5d217541', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-1bmt7as6', 'alias': 'latest'}, {'artifactCollectionName': 'source-1bmt7as6', 'alias': 'v4'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzOTAyOTM1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTU0OTMxMjEw', 'versionIndex': 4}}, 'version': 'v4'}
+2022-07-08 19:39:30,430 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:39:31,020 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:39:31,021 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:39:34,694 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: resume
+2022-07-08 19:39:34,694 INFO    HandlerThread:980 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-08 19:39:36,315 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: log_artifact
+2022-07-08 19:39:36,316 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: log_artifact
+2022-07-08 19:39:41,199 INFO    Thread-46 :980 [upload_job.py:push():90] Uploaded file C:\Users\julio\.cache\wandb\artifacts\obj\md5\b3\5b844a674ac5e71c74f58e8305cde7
+2022-07-08 19:39:42,695 INFO    SenderThread:980 [sender.py:send_request_log_artifact():1006] logged artifact data_train.csv - {'id': 'QXJ0aWZhY3Q6MTU0OTMyMjAy', 'digest': '0d0f1df108ae31deebe05b318f8e958b', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzOTAzMjQx', 'latestArtifact': None}, 'version': 'latest'}
+2022-07-08 19:39:44,330 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: log_artifact
+2022-07-08 19:39:44,330 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: log_artifact
+2022-07-08 19:39:46,392 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:39:47,475 INFO    Thread-48 :980 [upload_job.py:push():90] Uploaded file C:\Users\julio\.cache\wandb\artifacts\obj\md5\14\f008b4d5da89051512d063f1c568d9
+2022-07-08 19:39:48,946 INFO    SenderThread:980 [sender.py:send_request_log_artifact():1006] logged artifact data_test.csv - {'id': 'QXJ0aWZhY3Q6MTU0OTMyMjY5', 'digest': '9f89dfbac62f3781e936763065bdf4c2', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzOTAzMjQy', 'latestArtifact': None}, 'version': 'latest'}
+2022-07-08 19:39:48,947 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:39:50,693 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: log_artifact
+2022-07-08 19:39:50,694 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: log_artifact
+2022-07-08 19:39:50,698 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: pause
+2022-07-08 19:39:50,698 INFO    HandlerThread:980 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-08 19:39:56,514 INFO    Thread-50 :980 [upload_job.py:push():90] Uploaded file C:\Users\julio\.cache\wandb\artifacts\obj\md5\64\3dbd74f67a0c627bb212f7ecea8639
+2022-07-08 19:39:57,913 INFO    SenderThread:980 [sender.py:send_request_log_artifact():1006] logged artifact source-1bmt7as6 - {'id': 'QXJ0aWZhY3Q6MTU0OTMyMzE5', 'digest': '386fe08a76e66d87aea3cf342dcf08a8', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzOTAyOTM1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTU0OTMxMjEw', 'versionIndex': 4}}, 'version': 'latest'}
+2022-07-08 19:39:57,913 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:40:04,295 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:40:04,295 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:40:19,630 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:40:19,631 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:40:20,881 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: resume
+2022-07-08 19:40:20,881 INFO    HandlerThread:980 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-08 19:40:25,886 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: log_artifact
+2022-07-08 19:40:25,887 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: log_artifact
+2022-07-08 19:40:25,888 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: pause
+2022-07-08 19:40:25,889 INFO    HandlerThread:980 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-08 19:40:26,516 INFO    SenderThread:980 [sender.py:send_request_log_artifact():1006] logged artifact source-1bmt7as6 - {'id': 'QXJ0aWZhY3Q6MTU0OTMyMzE5', 'digest': '386fe08a76e66d87aea3cf342dcf08a8', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'source-1bmt7as6', 'alias': 'latest'}, {'artifactCollectionName': 'source-1bmt7as6', 'alias': 'v5'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzOTAyOTM1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTU0OTMyMzE5', 'versionIndex': 5}}, 'version': 'v5'}
+2022-07-08 19:40:26,516 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:40:34,973 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:40:34,973 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:40:50,285 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:40:50,286 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:41:05,630 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:41:05,630 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:41:20,937 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:41:20,938 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:41:36,291 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:41:36,292 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:41:51,702 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:41:51,703 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:42:07,027 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:42:07,027 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:42:16,424 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: resume
+2022-07-08 19:42:16,424 INFO    HandlerThread:980 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-08 19:42:17,162 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: log_artifact
+2022-07-08 19:42:17,163 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: log_artifact
+2022-07-08 19:42:17,172 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: pause
+2022-07-08 19:42:17,172 INFO    HandlerThread:980 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-08 19:42:18,015 INFO    Thread-11 :980 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\output.log
+2022-07-08 19:42:20,376 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: resume
+2022-07-08 19:42:20,376 INFO    HandlerThread:980 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-08 19:42:22,677 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 19:42:22,909 INFO    Thread-54 :980 [upload_job.py:push():90] Uploaded file C:\Users\julio\.cache\wandb\artifacts\obj\md5\93\49f352008ab4161430415b0ec8fb70
+2022-07-08 19:42:23,051 INFO    Thread-11 :980 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\code
+2022-07-08 19:42:24,609 INFO    SenderThread:980 [sender.py:send_request_log_artifact():1006] logged artifact source-1bmt7as6 - {'id': 'QXJ0aWZhY3Q6MTU0OTMzNjIz', 'digest': '7b8de7bd762b1f16b5863b6d357ed841', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzOTAyOTM1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTU0OTMyMzE5', 'versionIndex': 5}}, 'version': 'latest'}
+2022-07-08 19:42:24,609 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:42:24,610 DEBUG   SenderThread:980 [sender.py:send():235] send: telemetry
+2022-07-08 19:42:24,611 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 19:42:24,924 DEBUG   SenderThread:980 [sender.py:send():235] send: config
+2022-07-08 19:42:25,065 INFO    Thread-11 :980 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\code\_session_history.ipynb
+2022-07-08 19:42:25,065 INFO    Thread-11 :980 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\code
+2022-07-08 19:42:26,075 INFO    Thread-11 :980 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\code\_session_history.ipynb
+2022-07-08 19:42:26,808 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: log_artifact
+2022-07-08 19:42:26,808 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: log_artifact
+2022-07-08 19:42:27,981 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:28,089 INFO    Thread-11 :980 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\output.log
+2022-07-08 19:42:28,277 INFO    Thread-57 :980 [upload_job.py:push():87] Skipped uploading C:\Users\julio\.cache\wandb\artifacts\obj\md5\93\49f352008ab4161430415b0ec8fb70
+2022-07-08 19:42:32,502 INFO    Thread-58 :980 [upload_job.py:push():90] Uploaded file C:\Users\julio\.cache\wandb\artifacts\obj\md5\43\b02bce57ac564544cb24ec6ddf2af5
+2022-07-08 19:42:33,099 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:33,898 INFO    SenderThread:980 [sender.py:send_request_log_artifact():1006] logged artifact source-1bmt7as6 - {'id': 'QXJ0aWZhY3Q6MTU0OTMzNzA5', 'digest': '98c0f162a3cb3db9a1bad82d46a72595', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzOTAyOTM1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTU0OTMzNjIz', 'versionIndex': 6}}, 'version': 'latest'}
+2022-07-08 19:42:34,331 DEBUG   SenderThread:980 [sender.py:send():235] send: telemetry
+2022-07-08 19:42:34,331 DEBUG   SenderThread:980 [sender.py:send():235] send: exit
+2022-07-08 19:42:34,332 INFO    SenderThread:980 [sender.py:send_exit():371] handling exit code: 0
+2022-07-08 19:42:34,355 INFO    SenderThread:980 [sender.py:send_exit():373] handling runtime: 362
+2022-07-08 19:42:34,357 INFO    SenderThread:980 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 19:42:34,359 INFO    SenderThread:980 [sender.py:send_exit():379] send defer
+2022-07-08 19:42:34,360 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:34,362 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:34,362 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: defer
+2022-07-08 19:42:34,363 INFO    HandlerThread:980 [handler.py:handle_request_defer():164] handle defer: 0
+2022-07-08 19:42:34,363 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: defer
+2022-07-08 19:42:34,363 INFO    SenderThread:980 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-07-08 19:42:34,363 INFO    SenderThread:980 [sender.py:transition_state():392] send defer: 1
+2022-07-08 19:42:34,363 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: defer
+2022-07-08 19:42:34,363 INFO    HandlerThread:980 [handler.py:handle_request_defer():164] handle defer: 1
+2022-07-08 19:42:34,404 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: defer
+2022-07-08 19:42:34,404 INFO    SenderThread:980 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-07-08 19:42:34,404 INFO    SenderThread:980 [sender.py:transition_state():392] send defer: 2
+2022-07-08 19:42:34,404 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: defer
+2022-07-08 19:42:34,405 DEBUG   SenderThread:980 [sender.py:send():235] send: stats
+2022-07-08 19:42:34,405 INFO    HandlerThread:980 [handler.py:handle_request_defer():164] handle defer: 2
+2022-07-08 19:42:34,405 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: defer
+2022-07-08 19:42:34,405 INFO    SenderThread:980 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-07-08 19:42:34,405 INFO    SenderThread:980 [sender.py:transition_state():392] send defer: 3
+2022-07-08 19:42:34,406 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: defer
+2022-07-08 19:42:34,406 INFO    HandlerThread:980 [handler.py:handle_request_defer():164] handle defer: 3
+2022-07-08 19:42:34,407 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: defer
+2022-07-08 19:42:34,407 INFO    SenderThread:980 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-07-08 19:42:34,407 INFO    SenderThread:980 [sender.py:transition_state():392] send defer: 4
+2022-07-08 19:42:34,407 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: defer
+2022-07-08 19:42:34,408 INFO    HandlerThread:980 [handler.py:handle_request_defer():164] handle defer: 4
+2022-07-08 19:42:34,408 DEBUG   SenderThread:980 [sender.py:send():235] send: summary
+2022-07-08 19:42:34,408 INFO    SenderThread:980 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 19:42:34,409 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: defer
+2022-07-08 19:42:34,409 INFO    SenderThread:980 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-07-08 19:42:34,409 INFO    SenderThread:980 [sender.py:transition_state():392] send defer: 5
+2022-07-08 19:42:34,409 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: defer
+2022-07-08 19:42:34,409 INFO    HandlerThread:980 [handler.py:handle_request_defer():164] handle defer: 5
+2022-07-08 19:42:34,409 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: defer
+2022-07-08 19:42:34,409 INFO    SenderThread:980 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-07-08 19:42:34,492 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:34,749 INFO    SenderThread:980 [sender.py:transition_state():392] send defer: 6
+2022-07-08 19:42:34,749 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:34,751 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: defer
+2022-07-08 19:42:34,751 INFO    HandlerThread:980 [handler.py:handle_request_defer():164] handle defer: 6
+2022-07-08 19:42:34,752 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: defer
+2022-07-08 19:42:34,752 INFO    SenderThread:980 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-07-08 19:42:34,752 INFO    SenderThread:980 [dir_watcher.py:finish():336] shutting down directory watcher
+2022-07-08 19:42:34,865 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:35,136 INFO    SenderThread:980 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\config.yaml
+2022-07-08 19:42:35,137 INFO    SenderThread:980 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\wandb-summary.json
+2022-07-08 19:42:35,143 INFO    SenderThread:980 [dir_watcher.py:finish():366] scan: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files
+2022-07-08 19:42:35,145 INFO    SenderThread:980 [dir_watcher.py:finish():380] scan save: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\conda-environment.yaml conda-environment.yaml
+2022-07-08 19:42:35,146 INFO    SenderThread:980 [dir_watcher.py:finish():380] scan save: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\config.yaml config.yaml
+2022-07-08 19:42:35,147 INFO    SenderThread:980 [dir_watcher.py:finish():380] scan save: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\output.log output.log
+2022-07-08 19:42:35,159 INFO    SenderThread:980 [dir_watcher.py:finish():380] scan save: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\requirements.txt requirements.txt
+2022-07-08 19:42:35,161 INFO    SenderThread:980 [dir_watcher.py:finish():380] scan save: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\wandb-metadata.json wandb-metadata.json
+2022-07-08 19:42:35,162 INFO    SenderThread:980 [dir_watcher.py:finish():380] scan save: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\wandb-summary.json wandb-summary.json
+2022-07-08 19:42:35,175 INFO    SenderThread:980 [dir_watcher.py:finish():380] scan save: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\code\_session_history.ipynb code\_session_history.ipynb
+2022-07-08 19:42:35,185 INFO    SenderThread:980 [dir_watcher.py:finish():380] scan save: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\media\images\Tipos de salas em que se é superhost ou não e também existe verificação do host_0_9c0e1e9e9787f2560b75.png media\images\Tipos de salas em que se é superhost ou não e também existe verificação do host_0_9c0e1e9e9787f2560b75.png
+2022-07-08 19:42:35,185 INFO    SenderThread:980 [sender.py:transition_state():392] send defer: 7
+2022-07-08 19:42:35,185 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:35,186 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: defer
+2022-07-08 19:42:35,186 INFO    HandlerThread:980 [handler.py:handle_request_defer():164] handle defer: 7
+2022-07-08 19:42:35,186 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: defer
+2022-07-08 19:42:35,186 INFO    SenderThread:980 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-07-08 19:42:35,189 INFO    SenderThread:980 [file_pusher.py:finish():145] shutting down file pusher
+2022-07-08 19:42:35,305 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:35,305 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:35,415 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:35,416 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:35,523 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:35,527 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:35,646 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:35,647 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:35,755 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:35,755 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:35,863 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:35,864 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:35,972 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:35,973 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:36,026 INFO    Thread-60 :980 [upload_job.py:push():132] Uploaded file C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\config.yaml
+2022-07-08 19:42:36,037 INFO    Thread-63 :980 [upload_job.py:push():132] Uploaded file C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\wandb-summary.json
+2022-07-08 19:42:36,081 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:36,082 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:36,102 INFO    Thread-61 :980 [upload_job.py:push():132] Uploaded file C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\output.log
+2022-07-08 19:42:36,120 INFO    Thread-62 :980 [upload_job.py:push():132] Uploaded file C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\requirements.txt
+2022-07-08 19:42:36,146 INFO    Thread-59 :980 [upload_job.py:push():132] Uploaded file C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\conda-environment.yaml
+2022-07-08 19:42:36,198 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:36,198 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:36,322 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:36,322 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:36,437 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:36,437 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:36,546 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:36,554 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:36,657 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:36,657 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:36,764 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:36,764 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:36,880 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:36,880 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:36,982 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:36,982 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:37,088 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:37,088 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:37,199 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:37,199 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:37,308 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:37,309 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:37,417 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:37,417 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:37,527 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:37,527 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:37,637 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:37,637 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:37,745 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:37,746 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:37,855 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:37,855 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:37,963 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:37,971 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:38,089 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:38,090 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:38,197 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:38,198 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:38,307 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:38,307 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:38,416 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:38,417 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:38,523 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:38,523 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:38,630 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:38,630 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:38,738 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:38,738 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:38,857 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:38,857 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:38,972 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:38,972 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:39,080 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:39,080 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:39,189 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:39,190 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:39,299 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:39,299 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:39,409 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:39,410 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:39,516 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:39,516 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:39,625 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:39,626 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:39,734 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:39,735 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:39,840 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:39,841 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:39,875 INFO    Thread-64 :980 [upload_job.py:push():132] Uploaded file C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\files\code\_session_history.ipynb
+2022-07-08 19:42:39,950 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:39,951 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:40,060 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:40,061 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:40,090 INFO    Thread-10 (_thread_body):980 [sender.py:transition_state():392] send defer: 8
+2022-07-08 19:42:40,090 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: defer
+2022-07-08 19:42:40,091 INFO    HandlerThread:980 [handler.py:handle_request_defer():164] handle defer: 8
+2022-07-08 19:42:40,091 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: defer
+2022-07-08 19:42:40,091 INFO    SenderThread:980 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-07-08 19:42:40,168 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:40,754 INFO    SenderThread:980 [sender.py:transition_state():392] send defer: 9
+2022-07-08 19:42:40,755 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:40,755 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: defer
+2022-07-08 19:42:40,755 INFO    HandlerThread:980 [handler.py:handle_request_defer():164] handle defer: 9
+2022-07-08 19:42:40,755 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: defer
+2022-07-08 19:42:40,755 INFO    SenderThread:980 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-07-08 19:42:40,756 INFO    SenderThread:980 [sender.py:transition_state():392] send defer: 10
+2022-07-08 19:42:40,757 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: defer
+2022-07-08 19:42:40,757 INFO    HandlerThread:980 [handler.py:handle_request_defer():164] handle defer: 10
+2022-07-08 19:42:40,757 DEBUG   SenderThread:980 [sender.py:send():235] send: final
+2022-07-08 19:42:40,757 DEBUG   SenderThread:980 [sender.py:send():235] send: footer
+2022-07-08 19:42:40,758 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: defer
+2022-07-08 19:42:40,758 INFO    SenderThread:980 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-07-08 19:42:40,870 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 19:42:40,870 DEBUG   SenderThread:980 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 19:42:40,871 INFO    SenderThread:980 [file_pusher.py:join():150] waiting for file pusher
+2022-07-08 19:42:41,265 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: sampled_history
+2022-07-08 19:42:41,269 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: get_summary
+2022-07-08 19:42:41,270 DEBUG   HandlerThread:980 [handler.py:handle_request():141] handle_request: shutdown
+2022-07-08 19:42:41,271 INFO    HandlerThread:980 [handler.py:finish():806] shutting down handler
+2022-07-08 19:42:41,767 INFO    WriterThread:980 [datastore.py:close():279] close: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_01\wandb\run-20220708_192611-1bmt7as6\run-1bmt7as6.wandb
+2022-07-08 19:42:42,167 INFO    SenderThread:980 [sender.py:finish():1111] shutting down sender
+2022-07-08 19:42:42,167 INFO    SenderThread:980 [file_pusher.py:finish():145] shutting down file pusher
+2022-07-08 19:42:42,167 INFO    SenderThread:980 [file_pusher.py:join():150] waiting for file pusher
+2022-07-08 19:42:42,258 INFO    MainThread:980 [internal.py:handle_exit():80] Internal process exited

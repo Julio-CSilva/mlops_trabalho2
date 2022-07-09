@@ -1,0 +1,177 @@
+2022-07-08 22:11:04,378 INFO    MainThread:8300 [internal.py:wandb_internal():90] W&B internal server running at pid: 8300, started at: 2022-07-08 22:11:04.378606
+2022-07-08 22:11:04,381 INFO    WriterThread:8300 [datastore.py:open_for_write():75] open: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_05\wandb\run-20220708_221103-239l6dwd\run-239l6dwd.wandb
+2022-07-08 22:11:04,383 DEBUG   SenderThread:8300 [sender.py:send():235] send: header
+2022-07-08 22:11:04,383 DEBUG   SenderThread:8300 [sender.py:send():235] send: run
+2022-07-08 22:11:04,964 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: check_version
+2022-07-08 22:11:04,972 INFO    SenderThread:8300 [dir_watcher.py:__init__():205] watching files in: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_05\wandb\run-20220708_221103-239l6dwd\files
+2022-07-08 22:11:04,972 INFO    SenderThread:8300 [sender.py:_start_run_threads():812] run started: 239l6dwd with start time 1657329063
+2022-07-08 22:11:04,972 DEBUG   SenderThread:8300 [sender.py:send():235] send: summary
+2022-07-08 22:11:04,972 INFO    SenderThread:8300 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 22:11:04,973 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: check_version
+2022-07-08 22:11:05,359 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: run_start
+2022-07-08 22:11:05,368 DEBUG   HandlerThread:8300 [meta.py:__init__():35] meta init
+2022-07-08 22:11:05,369 DEBUG   HandlerThread:8300 [meta.py:__init__():49] meta init done
+2022-07-08 22:11:05,369 DEBUG   HandlerThread:8300 [meta.py:probe():209] probe
+2022-07-08 22:11:05,386 DEBUG   HandlerThread:8300 [git.py:repo():29] git repository is invalid
+2022-07-08 22:11:05,386 DEBUG   HandlerThread:8300 [meta.py:_save_pip():53] save pip
+2022-07-08 22:11:05,386 DEBUG   HandlerThread:8300 [meta.py:_save_pip():67] save pip done
+2022-07-08 22:11:05,387 DEBUG   HandlerThread:8300 [meta.py:_save_conda():74] save conda
+2022-07-08 22:11:05,975 INFO    Thread-11 :8300 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_05\wandb\run-20220708_221103-239l6dwd\files\conda-environment.yaml
+2022-07-08 22:11:05,975 INFO    Thread-11 :8300 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_05\wandb\run-20220708_221103-239l6dwd\files\requirements.txt
+2022-07-08 22:11:05,975 INFO    Thread-11 :8300 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_05\wandb\run-20220708_221103-239l6dwd\files\wandb-summary.json
+2022-07-08 22:11:06,979 INFO    Thread-11 :8300 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_05\wandb\run-20220708_221103-239l6dwd\files\conda-environment.yaml
+2022-07-08 22:11:06,995 DEBUG   HandlerThread:8300 [meta.py:_save_conda():84] save conda done
+2022-07-08 22:11:06,995 DEBUG   HandlerThread:8300 [meta.py:probe():247] probe done
+2022-07-08 22:11:07,001 DEBUG   SenderThread:8300 [sender.py:send():235] send: files
+2022-07-08 22:11:07,001 INFO    SenderThread:8300 [sender.py:_save_file():949] saving file wandb-metadata.json with policy now
+2022-07-08 22:11:07,013 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-08 22:11:07,013 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: stop_status
+2022-07-08 22:11:07,765 DEBUG   SenderThread:8300 [sender.py:send():235] send: telemetry
+2022-07-08 22:11:07,985 INFO    Thread-11 :8300 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_05\wandb\run-20220708_221103-239l6dwd\files\output.log
+2022-07-08 22:11:07,986 INFO    Thread-11 :8300 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_05\wandb\run-20220708_221103-239l6dwd\files\wandb-metadata.json
+2022-07-08 22:11:08,547 INFO    Thread-15 :8300 [upload_job.py:push():132] Uploaded file C:\Users\julio\AppData\Local\Temp\tmp9nw5orpjwandb\21xls2j8-wandb-metadata.json
+2022-07-08 22:11:10,015 INFO    Thread-11 :8300 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_05\wandb\run-20220708_221103-239l6dwd\files\output.log
+2022-07-08 22:11:11,013 DEBUG   SenderThread:8300 [sender.py:send():235] send: telemetry
+2022-07-08 22:11:11,618 DEBUG   SenderThread:8300 [sender.py:send():235] send: exit
+2022-07-08 22:11:11,618 INFO    SenderThread:8300 [sender.py:send_exit():371] handling exit code: 0
+2022-07-08 22:11:11,618 INFO    SenderThread:8300 [sender.py:send_exit():373] handling runtime: 6
+2022-07-08 22:11:11,619 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:11,619 INFO    SenderThread:8300 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 22:11:11,620 INFO    SenderThread:8300 [sender.py:send_exit():379] send defer
+2022-07-08 22:11:11,620 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:11,620 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: defer
+2022-07-08 22:11:11,620 INFO    HandlerThread:8300 [handler.py:handle_request_defer():164] handle defer: 0
+2022-07-08 22:11:11,620 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: defer
+2022-07-08 22:11:11,620 INFO    SenderThread:8300 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-07-08 22:11:11,621 INFO    SenderThread:8300 [sender.py:transition_state():392] send defer: 1
+2022-07-08 22:11:11,621 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: defer
+2022-07-08 22:11:11,621 INFO    HandlerThread:8300 [handler.py:handle_request_defer():164] handle defer: 1
+2022-07-08 22:11:11,751 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:11,751 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: defer
+2022-07-08 22:11:11,751 INFO    SenderThread:8300 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-07-08 22:11:11,751 INFO    SenderThread:8300 [sender.py:transition_state():392] send defer: 2
+2022-07-08 22:11:11,751 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:11,751 DEBUG   SenderThread:8300 [sender.py:send():235] send: stats
+2022-07-08 22:11:11,752 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: defer
+2022-07-08 22:11:11,752 INFO    HandlerThread:8300 [handler.py:handle_request_defer():164] handle defer: 2
+2022-07-08 22:11:11,752 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: defer
+2022-07-08 22:11:11,752 INFO    SenderThread:8300 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-07-08 22:11:11,752 INFO    SenderThread:8300 [sender.py:transition_state():392] send defer: 3
+2022-07-08 22:11:11,753 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: defer
+2022-07-08 22:11:11,753 INFO    HandlerThread:8300 [handler.py:handle_request_defer():164] handle defer: 3
+2022-07-08 22:11:11,753 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: defer
+2022-07-08 22:11:11,753 INFO    SenderThread:8300 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-07-08 22:11:11,753 INFO    SenderThread:8300 [sender.py:transition_state():392] send defer: 4
+2022-07-08 22:11:11,753 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: defer
+2022-07-08 22:11:11,753 INFO    HandlerThread:8300 [handler.py:handle_request_defer():164] handle defer: 4
+2022-07-08 22:11:11,753 DEBUG   SenderThread:8300 [sender.py:send():235] send: summary
+2022-07-08 22:11:11,754 INFO    SenderThread:8300 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-08 22:11:11,754 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: defer
+2022-07-08 22:11:11,754 INFO    SenderThread:8300 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-07-08 22:11:11,754 INFO    SenderThread:8300 [sender.py:transition_state():392] send defer: 5
+2022-07-08 22:11:11,755 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: defer
+2022-07-08 22:11:11,755 INFO    HandlerThread:8300 [handler.py:handle_request_defer():164] handle defer: 5
+2022-07-08 22:11:11,755 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: defer
+2022-07-08 22:11:11,755 INFO    SenderThread:8300 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-07-08 22:11:11,868 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:12,028 INFO    Thread-11 :8300 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_05\wandb\run-20220708_221103-239l6dwd\files\output.log
+2022-07-08 22:11:12,029 INFO    Thread-11 :8300 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_05\wandb\run-20220708_221103-239l6dwd\files\wandb-summary.json
+2022-07-08 22:11:12,320 INFO    SenderThread:8300 [sender.py:transition_state():392] send defer: 6
+2022-07-08 22:11:12,320 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:12,321 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: defer
+2022-07-08 22:11:12,321 INFO    HandlerThread:8300 [handler.py:handle_request_defer():164] handle defer: 6
+2022-07-08 22:11:12,321 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: defer
+2022-07-08 22:11:12,321 INFO    SenderThread:8300 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-07-08 22:11:12,321 INFO    SenderThread:8300 [dir_watcher.py:finish():336] shutting down directory watcher
+2022-07-08 22:11:12,431 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:13,037 INFO    SenderThread:8300 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_05\wandb\run-20220708_221103-239l6dwd\files\config.yaml
+2022-07-08 22:11:13,038 INFO    SenderThread:8300 [dir_watcher.py:finish():366] scan: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_05\wandb\run-20220708_221103-239l6dwd\files
+2022-07-08 22:11:13,038 INFO    SenderThread:8300 [dir_watcher.py:finish():380] scan save: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_05\wandb\run-20220708_221103-239l6dwd\files\conda-environment.yaml conda-environment.yaml
+2022-07-08 22:11:13,039 INFO    SenderThread:8300 [dir_watcher.py:finish():380] scan save: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_05\wandb\run-20220708_221103-239l6dwd\files\config.yaml config.yaml
+2022-07-08 22:11:13,040 INFO    SenderThread:8300 [dir_watcher.py:finish():380] scan save: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_05\wandb\run-20220708_221103-239l6dwd\files\output.log output.log
+2022-07-08 22:11:13,044 INFO    SenderThread:8300 [dir_watcher.py:finish():380] scan save: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_05\wandb\run-20220708_221103-239l6dwd\files\requirements.txt requirements.txt
+2022-07-08 22:11:13,053 INFO    SenderThread:8300 [dir_watcher.py:finish():380] scan save: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_05\wandb\run-20220708_221103-239l6dwd\files\wandb-metadata.json wandb-metadata.json
+2022-07-08 22:11:13,054 INFO    SenderThread:8300 [dir_watcher.py:finish():380] scan save: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_05\wandb\run-20220708_221103-239l6dwd\files\wandb-summary.json wandb-summary.json
+2022-07-08 22:11:13,058 INFO    SenderThread:8300 [sender.py:transition_state():392] send defer: 7
+2022-07-08 22:11:13,059 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:13,060 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: defer
+2022-07-08 22:11:13,060 INFO    HandlerThread:8300 [handler.py:handle_request_defer():164] handle defer: 7
+2022-07-08 22:11:13,060 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: defer
+2022-07-08 22:11:13,061 INFO    SenderThread:8300 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-07-08 22:11:13,061 INFO    SenderThread:8300 [file_pusher.py:finish():145] shutting down file pusher
+2022-07-08 22:11:13,176 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:13,176 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:13,287 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:13,287 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:13,398 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:13,398 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:13,509 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:13,509 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:13,621 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:13,621 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:13,731 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:13,732 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:13,839 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:13,839 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:13,946 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:13,947 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:14,053 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:14,053 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:14,162 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:14,162 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:14,274 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:14,274 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:14,386 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:14,386 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:14,497 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:14,497 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:14,609 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:14,609 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:14,717 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:14,718 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:14,828 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:14,829 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:14,938 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:14,938 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:15,046 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:15,047 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:15,066 INFO    Thread-20 :8300 [upload_job.py:push():132] Uploaded file C:\Users\julio\Downloads\trabalho 2(mlops)\Example_05\wandb\run-20220708_221103-239l6dwd\files\wandb-summary.json
+2022-07-08 22:11:15,068 INFO    Thread-16 :8300 [upload_job.py:push():132] Uploaded file C:\Users\julio\Downloads\trabalho 2(mlops)\Example_05\wandb\run-20220708_221103-239l6dwd\files\conda-environment.yaml
+2022-07-08 22:11:15,070 INFO    Thread-18 :8300 [upload_job.py:push():132] Uploaded file C:\Users\julio\Downloads\trabalho 2(mlops)\Example_05\wandb\run-20220708_221103-239l6dwd\files\output.log
+2022-07-08 22:11:15,080 INFO    Thread-19 :8300 [upload_job.py:push():132] Uploaded file C:\Users\julio\Downloads\trabalho 2(mlops)\Example_05\wandb\run-20220708_221103-239l6dwd\files\requirements.txt
+2022-07-08 22:11:15,090 INFO    Thread-17 :8300 [upload_job.py:push():132] Uploaded file C:\Users\julio\Downloads\trabalho 2(mlops)\Example_05\wandb\run-20220708_221103-239l6dwd\files\config.yaml
+2022-07-08 22:11:15,155 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:15,156 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:15,264 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:15,264 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:15,295 INFO    Thread-10 :8300 [sender.py:transition_state():392] send defer: 8
+2022-07-08 22:11:15,295 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: defer
+2022-07-08 22:11:15,296 INFO    HandlerThread:8300 [handler.py:handle_request_defer():164] handle defer: 8
+2022-07-08 22:11:15,296 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: defer
+2022-07-08 22:11:15,296 INFO    SenderThread:8300 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-07-08 22:11:15,375 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:15,542 INFO    SenderThread:8300 [sender.py:transition_state():392] send defer: 9
+2022-07-08 22:11:15,542 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:15,542 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: defer
+2022-07-08 22:11:15,542 INFO    HandlerThread:8300 [handler.py:handle_request_defer():164] handle defer: 9
+2022-07-08 22:11:15,543 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: defer
+2022-07-08 22:11:15,543 INFO    SenderThread:8300 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-07-08 22:11:15,543 INFO    SenderThread:8300 [sender.py:transition_state():392] send defer: 10
+2022-07-08 22:11:15,543 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: defer
+2022-07-08 22:11:15,544 DEBUG   SenderThread:8300 [sender.py:send():235] send: final
+2022-07-08 22:11:15,544 INFO    HandlerThread:8300 [handler.py:handle_request_defer():164] handle defer: 10
+2022-07-08 22:11:15,544 DEBUG   SenderThread:8300 [sender.py:send():235] send: footer
+2022-07-08 22:11:15,544 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: defer
+2022-07-08 22:11:15,544 INFO    SenderThread:8300 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-07-08 22:11:15,657 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-08 22:11:15,658 DEBUG   SenderThread:8300 [sender.py:send_request():249] send_request: poll_exit
+2022-07-08 22:11:15,658 INFO    SenderThread:8300 [file_pusher.py:join():150] waiting for file pusher
+2022-07-08 22:11:16,876 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: sampled_history
+2022-07-08 22:11:16,877 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: get_summary
+2022-07-08 22:11:16,878 DEBUG   HandlerThread:8300 [handler.py:handle_request():141] handle_request: shutdown
+2022-07-08 22:11:16,878 INFO    HandlerThread:8300 [handler.py:finish():806] shutting down handler
+2022-07-08 22:11:17,562 INFO    WriterThread:8300 [datastore.py:close():279] close: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_05\wandb\run-20220708_221103-239l6dwd\run-239l6dwd.wandb
+2022-07-08 22:11:17,780 INFO    SenderThread:8300 [sender.py:finish():1111] shutting down sender
+2022-07-08 22:11:17,780 INFO    SenderThread:8300 [file_pusher.py:finish():145] shutting down file pusher
+2022-07-08 22:11:17,780 INFO    SenderThread:8300 [file_pusher.py:join():150] waiting for file pusher
+2022-07-08 22:11:17,783 INFO    MainThread:8300 [internal.py:handle_exit():80] Internal process exited

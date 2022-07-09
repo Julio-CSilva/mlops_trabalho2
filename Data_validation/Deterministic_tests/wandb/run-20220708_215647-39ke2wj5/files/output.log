@@ -1,0 +1,133 @@
+collected 3 items
+test_data.py::test_column_presence_and_type FAILED
+test_data.py::test_class_names FAILED
+test_data.py::test_column_ranges FAILED
+====================================================== FAILURES =======================================================
+____________________________________________ test_column_presence_and_type ____________________________________________
+data =              id                            listing_url  ...  calculated_host_listings_count_shared_rooms reviews_per_m...irbnb.com/rooms/53967814  ...                                            0               NaN
+[24549 rows x 74 columns]
+    def test_column_presence_and_type(data):
+        required_columns = {
+            "id": pd.api.types.is_int64_dtype,
+            "listing_url": pd.api.types.is_object_dtype,
+            "last_scraped": pd.api.types.is_object_dtype,
+            "name": pd.api.types.is_object_dtype,
+            "description": pd.api.types.is_object_dtype,
+            "neighborhood_overview": pd.api.types.is_object_dtype,
+            "picture_url": pd.api.types.is_object_dtype,
+            "host_id": pd.api.types.is_int64_dtype,
+            "host_url": pd.api.types.is_object_dtype,
+            "host_name": pd.api.types.is_object_dtype,
+            "host_since": pd.api.types.is_object_dtype,
+            "host_location": pd.api.types.is_object_dtype,
+            "host_about": pd.api.types.is_object_dtype,
+            "host_response_time": pd.api.types.is_object_dtype,
+            "host_response_rate": pd.api.types.is_object_dtype,
+            "host_acceptance_rate": pd.api.types.is_object_dtype,
+            "host_is_superhost": pd.api.types.is_object_dtype,
+            "host_thumbnail_url": pd.api.types.is_object_dtype,
+            "host_picture_url": pd.api.types.is_object_dtype,
+            "host_neighbourhood": pd.api.types.is_object_dtype,
+            "host_total_listings_count": pd.api.types.is_float_dtype,
+            "host_verifications": pd.api.types.is_object_dtype,
+            "neighbourhood": pd.api.types.is_object_dtype,
+            "neighbourhood_cleansed": pd.api.types.is_object_dtype,
+            "property_type": pd.api.types.is_object_dtype,
+            "room_type": pd.api.types.is_object_dtype,
+            "accommodates": pd.api.types.is_int64_dtype,
+            "bathrooms_text": pd.api.types.is_object_dtype,
+            "bedrooms": pd.api.types.is_int64_dtype,
+            "beds": pd.api.types.is_int64_dtype,
+            "amenities": pd.api.types.is_object_dtype,
+            "price": pd.api.types.is_object_dtype,
+            "minimum_nights": pd.api.types.is_int64_dtype,
+            "maximum_nights": pd.api.types.is_int64_dtype,
+            "minimum_minimum_nights": pd.api.types.is_int64_dtype,
+            "maximum_minimum_nights": pd.api.types.is_int64_dtype,
+            "minimum_maximum_nights": pd.api.types.is_int64_dtype,
+            "maximum_maximum_nights": pd.api.types.is_int64_dtype,
+            "has_availability": pd.api.types.is_object_dtype,
+            "availability_30": pd.api.types.is_int64_dtype,
+            "availability_60": pd.api.types.is_int64_dtype,
+            "availability_90": pd.api.types.is_int64_dtype,
+            "availability_365": pd.api.types.is_int64_dtype,
+            "calendar_last_scraped": pd.api.types.is_object_dtype,
+            "number_of_reviews": pd.api.types.is_int64_dtype,
+            "number_of_reviews_ltm": pd.api.types.is_int64_dtype,
+            "number_of_reviews_l30d": pd.api.types.is_int64_dtype,
+            "first_review": pd.api.types.is_object_dtype,
+            "last_review": pd.api.types.is_object_dtype,
+            "instant_bookable": pd.api.types.is_object_dtype,
+            "calculated_host_listings_count": pd.api.types.is_int64_dtype,
+            "calculated_host_listings_count_entire_homes": pd.api.types.is_int64_dtype,
+            "calculated_host_listings_count_private_rooms": pd.api.types.is_int64_dtype,
+            "calculated_host_listings_count_shared_rooms": pd.api.types.is_int64_dtype
+        }
+        # Check column presence
+        assert set(data.columns.values).issuperset(set(required_columns.keys()))
+        for col_name, format_verification_funct in required_columns.items():
+>           assert format_verification_funct(data[col_name]), f"Column {col_name} failed test {format_verification_funct}"
+E           AssertionError: Column bedrooms failed test <function is_int64_dtype at 0x0000028603E9F9D0>
+E           assert False
+E            +  where False = <function is_int64_dtype at 0x0000028603E9F9D0>(0        2.0\n1        1.0\n2        1.0\n3        1.0\n4        1.0\n        ... \n24544    4.0\n24545    1.0\n24546    3.0\n24547    1.0\n24548    1.0\nName: bedrooms, Length: 24549, dtype: float64)
+test_data.py:83: AssertionError
+__________________________________________________ test_class_names ___________________________________________________
+data =              id                            listing_url  ...  calculated_host_listings_count_shared_rooms reviews_per_m...irbnb.com/rooms/53967814  ...                                            0               NaN
+[24549 rows x 74 columns]
+    def test_class_names(data):
+        # Check that only the known classes are present
+        known_classes = [
+            " f",
+            " t"
+        ]
+>       assert data["instant_bookable"].isin(known_classes).all()
+E       AssertionError: assert False
+E        +  where False = <bound method Series.all of 0        False\n1        False\n2        False\n3        False\n4        False\n         ...  \n...  False\n24545    False\n24546    False\n24547    False\n24548    False\nName: instant_bookable, Length: 24549, dtype: bool>()
+E        +    where <bound method Series.all of 0        False\n1        False\n2        False\n3        False\n4        False\n         ...  \n...  False\n24545    False\n24546    False\n24547    False\n24548    False\nName: instant_bookable, Length: 24549, dtype: bool> = 0        False\n1        False\n2        False\n3        False\n4        False\n         ...  \n24544    False\n24545    False\n24546    False\n24547    False\n24548    False\nName: instant_bookable, Length: 24549, dtype: bool.all
+E        +      where 0        False\n1        False\n2        False\n3        False\n4        False\n         ...  \n24544    False\n24545    False\n24546    False\n24547    False\n24548    False\nName: instant_bookable, Length: 24549, dtype: bool = <bound method Series.isin of 0        f\n1        f\n2        f\n3        f\n4        f\n        ..\n24544    t\n24545    t\n24546    t\n24547    f\n24548    f\nName: instant_bookable, Length: 24549, dtype: object>([' f', ' t'])
+E        +        where <bound method Series.isin of 0        f\n1        f\n2        f\n3        f\n4        f\n        ..\n24544    t\n24545    t\n24546    t\n24547    f\n24548    f\nName: instant_bookable, Length: 24549, dtype: object> = 0        f\n1        f\n2        f\n3        f\n4        f\n        ..\n24544    t\n24545    t\n24546    t\n24547    f\n24548    f\nName: instant_bookable, Length: 24549, dtype: object.isin
+test_data.py:94: AssertionError
+_________________________________________________ test_column_ranges __________________________________________________
+data =              id                            listing_url  ...  calculated_host_listings_count_shared_rooms reviews_per_m...irbnb.com/rooms/53967814  ...                                            0               NaN
+[24549 rows x 74 columns]
+    def test_column_ranges(data):
+        ranges = {
+            "id": (10000, 54000000),
+            "host_listings_count": (0.0, 500.484705e+06),
+            "host_total_listings_count": (0.0, 100.0),
+            "accommodates": (0, 30),
+            "bedrooms": (0, 10.0),
+            "beds": (1.0, 10.0)
+        }
+        for col_name, (minimum, maximum) in ranges.items():
+>           assert data[col_name].dropna().between(minimum, maximum).all(), (
+                f"Column {col_name} failed the test. Should be between {minimum} and {maximum}, "
+                f"instead min={data[col_name].min()} and max={data[col_name].max()}"
+            )
+E           AssertionError: Column host_total_listings_count failed the test. Should be between 0.0 and 100.0, instead min=0.0 and max=666.0
+E           assert False
+E            +  where False = <bound method Series.all of 0        True\n1        True\n2        True\n3        True\n4        True\n         ... \n24544 ...ue\n24545    True\n24546    True\n24547    True\n24548    True\nName: host_total_listings_count, Length: 24534, dtype: bool>()
+E            +    where <bound method Series.all of 0        True\n1        True\n2        True\n3        True\n4        True\n         ... \n24544 ...ue\n24545    True\n24546    True\n24547    True\n24548    True\nName: host_total_listings_count, Length: 24534, dtype: bool> = 0        True\n1        True\n2        True\n3        True\n4        True\n         ... \n24544    True\n24545    True\n24546    True\n24547    True\n24548    True\nName: host_total_listings_count, Length: 24534, dtype: bool.all
+E            +      where 0        True\n1        True\n2        True\n3        True\n4        True\n         ... \n24544    True\n24545    True\n24546    True\n24547    True\n24548    True\nName: host_total_listings_count, Length: 24534, dtype: bool = <bound method Series.between of 0         2.0\n1         0.0\n2         3.0\n3         1.0\n4         1.0\n         ... \n24...24545     1.0\n24546     1.0\n24547     9.0\n24548    65.0\nName: host_total_listings_count, Length: 24534, dtype: float64>(0.0, 100.0)
+E            +        where <bound method Series.between of 0         2.0\n1         0.0\n2         3.0\n3         1.0\n4         1.0\n         ... \n24...24545     1.0\n24546     1.0\n24547     9.0\n24548    65.0\nName: host_total_listings_count, Length: 24534, dtype: float64> = 0         2.0\n1         0.0\n2         3.0\n3         1.0\n4         1.0\n         ... \n24544     0.0\n24545     1.0\n24546     1.0\n24547     9.0\n24548    65.0\nName: host_total_listings_count, Length: 24534, dtype: float64.between
+E            +          where 0         2.0\n1         0.0\n2         3.0\n3         1.0\n4         1.0\n         ... \n24544     0.0\n24545     1.0\n24546     1.0\n24547     9.0\n24548    65.0\nName: host_total_listings_count, Length: 24534, dtype: float64 = <bound method Series.dropna of 0         2.0\n1         0.0\n2         3.0\n3         1.0\n4         1.0\n         ... \n245...24545     1.0\n24546     1.0\n24547     9.0\n24548    65.0\nName: host_total_listings_count, Length: 24549, dtype: float64>()
+E            +            where <bound method Series.dropna of 0         2.0\n1         0.0\n2         3.0\n3         1.0\n4         1.0\n         ... \n245...24545     1.0\n24546     1.0\n24547     9.0\n24548    65.0\nName: host_total_listings_count, Length: 24549, dtype: float64> = 0         2.0\n1         0.0\n2         3.0\n3         1.0\n4         1.0\n         ... \n24544     0.0\n24545     1.0\n24546     1.0\n24547     9.0\n24548    65.0\nName: host_total_listings_count, Length: 24549, dtype: float64.dropna
+test_data.py:110: AssertionError
+================================================== warnings summary ===================================================
+..\..\..\anaconda3\envs\mlflow-d55a5cd65adfa33e03f0f3532080a4f8be3ebd7e\lib\site-packages\win32\lib\pywintypes.py:2
+  C:\Users\julio\anaconda3\envs\mlflow-d55a5cd65adfa33e03f0f3532080a4f8be3ebd7e\lib\site-packages\win32\lib\pywintypes.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+    import imp, sys, os
+..\..\..\anaconda3\envs\mlflow-d55a5cd65adfa33e03f0f3532080a4f8be3ebd7e\lib\site-packages\pandas\_testing.py:24
+  C:\Users\julio\anaconda3\envs\mlflow-d55a5cd65adfa33e03f0f3532080a4f8be3ebd7e\lib\site-packages\pandas\_testing.py:24: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+  Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+    import pandas._libs.testing as _testing
+test_data.py: 12 warnings
+  C:\Users\julio\anaconda3\envs\mlflow-d55a5cd65adfa33e03f0f3532080a4f8be3ebd7e\lib\site-packages\pandas\core\indexes\base.py:395: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+  Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+    elif issubclass(data.dtype.type, np.bool) or is_bool_dtype(data):
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=============================================== short test summary info ===============================================
+FAILED test_data.py::test_column_presence_and_type - AssertionError: Column bedrooms failed test <function is_int64_d...
+FAILED test_data.py::test_class_names - AssertionError: assert False
+FAILED test_data.py::test_column_ranges - AssertionError: Column host_total_listings_count failed the test. Should be...
+=========================================== 3 failed, 14 warnings in 10.39s ===========================================

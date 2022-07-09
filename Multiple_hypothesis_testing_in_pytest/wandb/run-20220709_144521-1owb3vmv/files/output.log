@@ -1,0 +1,12 @@
+================================================= test session starts =================================================
+platform win32 -- Python 3.9.13, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- C:\Users\julio\anaconda3\envs\mlflow-678086df7b37ab43a5a20b0f1289abac3dc686e0\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\julio\Downloads\trabalho 2(mlops)\Example_09
+collected 1 item
+test_data.py::test_kolmogorov_smirnov PASSED
+================================================== warnings summary ===================================================
+..\..\..\anaconda3\envs\mlflow-678086df7b37ab43a5a20b0f1289abac3dc686e0\lib\site-packages\win32\lib\pywintypes.py:2
+  C:\Users\julio\anaconda3\envs\mlflow-678086df7b37ab43a5a20b0f1289abac3dc686e0\lib\site-packages\win32\lib\pywintypes.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+    import imp, sys, os
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+============================================ 1 passed, 1 warning in 8.66s =============================================

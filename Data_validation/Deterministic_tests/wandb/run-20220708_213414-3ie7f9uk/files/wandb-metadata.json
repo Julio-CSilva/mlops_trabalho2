@@ -1,0 +1,21 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.10.5",
+    "heartbeatAt": "2022-07-09T00:34:16.737728",
+    "startedAt": "2022-07-09T00:34:14.254729",
+    "docker": null,
+    "gpu": "GeForce GTX 1650",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        ".",
+        "-s",
+        "-vv"
+    ],
+    "state": "running",
+    "program": "-m __main__",
+    "host": "DESKTOP-NAF89D0",
+    "username": "julio",
+    "executable": "C:\\Users\\julio\\anaconda3\\envs\\mlflow-ffe3c765f05344d4a1f133c9b1d5f2ac1dc80991\\python.exe"
+}

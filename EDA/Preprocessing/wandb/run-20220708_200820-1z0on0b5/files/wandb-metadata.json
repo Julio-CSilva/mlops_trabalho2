@@ -1,0 +1,27 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.10.5",
+    "heartbeatAt": "2022-07-08T23:08:22.375418",
+    "startedAt": "2022-07-08T23:08:20.212390",
+    "docker": null,
+    "gpu": "GeForce GTX 1650",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "trabalho_2/raw_data.csv:latest",
+        "--artifact_name",
+        "preprocessed_data.csv",
+        "--artifact_type",
+        "clean_data",
+        "--artifact_description",
+        "Data"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\julio\\Downloads\\trabalho 2(mlops)\\Example_02\\run.py",
+    "codePath": "run.py",
+    "host": "DESKTOP-NAF89D0",
+    "username": "julio",
+    "executable": "C:\\Users\\julio\\anaconda3\\envs\\mlflow-d6dedb4e79282a7553fc20a884f52f82571d8457\\python.exe"
+}
